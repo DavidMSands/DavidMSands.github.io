@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const KEY = process.env.REACT_APP_OPENAI_SECRET
-
+console.log(KEY)
 function Form({ setResponses }) {
     const [prompt, setPrompt] = useState()
     const [isHelp, setIsHelp] = useState(false)
